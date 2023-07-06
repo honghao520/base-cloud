@@ -17,4 +17,5 @@ public interface ItemRepository extends ElasticsearchRepository<HhUser,Integer> 
     // 会自动在类中生成基本的增删改查方法,直接可以使用
     // 它自动识别或自动生成的规则,是我们定义的两个泛型ElasticsearchRepository<[实体类名],[主键类型]>
 
+
 }
